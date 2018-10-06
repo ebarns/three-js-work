@@ -41,8 +41,7 @@ function createTextObject(font, message) {
         color.toArray(customColor.array, i * customColor.itemSize);
     }
 
-    bigTextDaddy = new THREE.Line(bufferGeo, createShaderMaterial());
-    scene.add(bigTextDaddy);
+    return new THREE.Line(bufferGeo, createShaderMaterial());
 }
 
 function emptyBufferAttribute(vertices) {

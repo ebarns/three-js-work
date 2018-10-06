@@ -1,8 +1,12 @@
 # three-js-work
 Exploring Three JS 
 
-#FancyKit.js
-Putting all of the objects I create in this file 
+# FancyKit.js
+Three JS geometry objects for scenes 
 
-#main.js
+# RenderActions.js
+Functions that are built to animate/manipulate expected object input 
+
+# Main.js
 basic setup of a threejs scene with orbit controls 
+
